@@ -1,0 +1,47 @@
+/*FORMATACAO DE TAG*/
+body{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+    background-color: #0000003a;
+    color: rgb(0, 0, 0);
+}
+
+/*FORMATACAO DE ID*/
+#texto{
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+    font-weight: bold;
+   text-shadow: 2px 4px 2px  black;
+}
+
+
+.queijo{
+    width: 800px;
+    height: 500px;
+    
+}
+
+.buttonH{
+    background-color: aquamarine;
+    padding: 10px;
+}
+.buttonQ{
+    background-color: rgb(129, 127, 255);
+    padding: 10px;
+    display: none;
+}
+.button1{
+    background-color: rgb(255, 2, 2);
+    padding: 10px;
+}
+button, img{
+    cursor: pointer;
+}
+p{
+    cursor: auto;
+}
